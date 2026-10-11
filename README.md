@@ -21,7 +21,7 @@
 
 ```
 software_portfolio/
-├── autonomous-driving/          # ROS 2 패키지 (인지·판단·제어 핵심 모듈 발췌)
+├── autonomous-driving/          # ROS 2 패키지 (원본 KHUSLA-SANDI/KOOKMIN에서 핵심 모듈 발췌)
 │   ├── README.md
 │   ├── docs/
 │   ├── track_drive_cnn_gpt/     # 노드·설정·launch·테스트
@@ -32,4 +32,6 @@ software_portfolio/
     └── cv_prj/
 ```
 
+> 자율주행 프로젝트의 전체 소스는 원본 저장소 [KHUSLA-SANDI/KOOKMIN](https://github.com/KHUSLA-SANDI/KOOKMIN)에 있습니다.
+>
 > 라이선스를 지정하지 않은 열람용 저장소입니다.
