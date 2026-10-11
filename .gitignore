@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+install/
+log/
+
+# model weights and recordings are not included
+*.pt
+*.onnx
+*_openvino_model/
+recordings/
+
+# panorama inputs and outputs
+panorama-stitching/cv_prj/img_data/*
+!panorama-stitching/cv_prj/img_data/.gitkeep
+panorama-stitching/cv_prj/results/*
+!panorama-stitching/cv_prj/results/.gitkeep
